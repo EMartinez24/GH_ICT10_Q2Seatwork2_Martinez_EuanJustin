@@ -32,3 +32,8 @@ Filipino: {filipino}<br>
 PE: {pe}<br>
 '''
     display(f'Your general weighted average is {gwa:.2f}', target='gwa')
+
+    if gwa > 74:
+        display('You passed!', target='gwa')
+    else:
+        display('You failed.', target='gwa')
